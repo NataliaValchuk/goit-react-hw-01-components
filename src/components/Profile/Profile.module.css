@@ -5,14 +5,14 @@
 
   width: auto;
   height: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 50px 12px;
 
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
-  background-color:  #f3f6f9;
+  background-color: #907d7d;
 }
 
 .description {
@@ -24,10 +24,10 @@
 
 .avatar {
   width: 150px;
-  border-radius: 50%;
+  /* border-radius: 50%;
   border: 2px solid #acba33;
+} */
 }
-
 .name {
   margin-top: 15px;
 
