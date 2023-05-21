@@ -5,9 +5,7 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-export const Statistics = data => {
-  const { title, stats } = data;
-
+export const Statistics = ({ title, stats }) => {
   return (
     <>
       <section className={StatisticsModule.statistics}>

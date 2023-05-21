@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import ProfileModule from './Profile.module.css';
 
-export const Profile = user => {
-  const { username, tag, location, avatar, stats } = user;
-
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={ProfileModule.profile}>
       <div className={ProfileModule.description}>
@@ -29,9 +27,9 @@ export const Profile = user => {
       </ul>
     </div>
   );
-}
+};
 
-  Profile.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

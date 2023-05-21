@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import FriendListModule from './FriendList.module.css';
 
-export const FriendList = data => {
-  const { friends } = data;
-
+export const FriendList = ({ friends }) => {
   return (
     <>
       <ul className={FriendListModule.friendList}>
